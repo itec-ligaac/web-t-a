@@ -1,0 +1,73 @@
+body{
+    margin:0;
+    font-family: Ubuntu, sans-serif;
+}
+.background{
+    background-image: url("Background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height:100%;
+    position: absolute;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    text-align: center;
+    padding: 20px;
+    width:80%;
+    height:60%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: default;
+    position: relative;
+    background: rgba( 255, 255, 255, 0.50 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255);
+    color:#277459;
+}
+form{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+form input{
+    margin: 5px;
+}
+form input[type="text"],input[type="date"]{
+    outline: none;
+    border: none;
+    color:#277459;
+    background: rgb(246, 247, 245);
+    font-weight: 700;
+    border: none;
+    border-bottom: 2px solid #277459;
+}
+form input[type="submit"]{
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    color:#277459;
+    background:white;
+    width:150px;
+    height:40px;
+    font-weight: 700;
+    cursor:pointer;
+}
+form input[type="submit"]:hover{
+    color:white;
+    background:#277459;
+}
+h6{
+    color:#56536E;
+}
